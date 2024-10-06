@@ -1,2 +1,2 @@
 # Arduino-Quiz-Game
-This Arduino project utilizes an LCD screen, two LEDs, two buttons, and a buzzer to create a simple quiz game.
+This Arduino project utilizes an LCD screen, two LEDs, two buttons, and a buzzer to create a simple quiz game. The user is asked a question ("Is the Earth round?") and responds by pressing one of two buttons (Yes/No). The system provides feedback by lighting up an LED (green for correct, red for incorrect) and playing a sound (a winning or losing melody). It uses a finite state machine to manage the game flow through different stages: initial, choice, right, and wrong.
